@@ -1,5 +1,6 @@
 -- Liquor Store POS Database Schema
 
+
 -- Drop tables in correct order (respecting foreign keys)
 DROP TABLE IF EXISTS sales_line_items CASCADE;
 DROP TABLE IF EXISTS sales_transactions CASCADE;
